@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Dynamic Weather WebApp',
     description: "A lightweight and efficient weather app with basic features and some goodies like dynamic theme elements developed using React.js & Node.js",
-    // image: '/images/1.png',
+    image: '/images/React-weather-app.png',
     tags: ['CSS', 'HTML', 'React', 'Node'],
     // source: 'https://google.com',
     // visit: 'https://google.com',
