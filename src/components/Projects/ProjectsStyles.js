@@ -1,7 +1,11 @@
 import styled from 'styled-components';
 
 export const Img = styled.img`
+<<<<<<< HEAD
   width:70%;
+=======
+  width:60%;
+>>>>>>> e05c565830e5938a2afb6df8c12d80ffdc975980
   height:50%;
   object-fit: cover;
   overflow: hidden;
