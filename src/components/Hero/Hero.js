@@ -22,7 +22,7 @@ const Hero = () => (
         • Innovative mind and Self Motivation <br />
         • Persistance in finding new paths and solutions <br />
       </SectionText>
-      <Button onClick={() => window.location = 'https://www.gmail.com'}>
+      <Button onClick={() => window.location = 'https://www.gaurav.works'}>
         Learn More
       </Button>
     </LeftSection>
