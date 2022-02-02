@@ -5,7 +5,7 @@ export const projects = [
     image: '/images/React-weather-app.png',
     tags: ['CSS', 'HTML', 'React', 'Node', 'Mobile App'],
     source: 'https://github.com/DracoCoder/React-Weather-App',
-    visit: 'dynamic-weather-ui.vercel.app',
+    visit: 'https://dynamic-weather-ui.vercel.app',
     id: 0,
   },
   {
@@ -14,7 +14,7 @@ export const projects = [
     image: '/images/iCapture.png',
     tags: ['Electron', 'HTML', 'JavaScript', 'CSS'],
     source: 'https://github.com/DracoCoder/icapture',
-    // visit: 'https://google.com',
+    visit: 'https://github.com/DracoCoder/icapture',
     id: 1,
   },
   // {
