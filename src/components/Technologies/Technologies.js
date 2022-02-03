@@ -4,7 +4,7 @@ import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () => (
-  <Section id='tech'>
+  <Section id="technology">
     <SectionDivider />
     <br /><br /><br />
     <SectionTitle>Technology</SectionTitle>
@@ -26,7 +26,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Front-end</ListTitle>
           <ListParagraph>Experienced with <br />
-            React.js and Angular.js
+            React.js, Next.js and Electron.js
           </ListParagraph>
         </ListContainer>
       </ListItem>
