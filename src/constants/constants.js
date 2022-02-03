@@ -12,7 +12,7 @@ export const projects = [
     title: 'iCapture',
     description: "A lightweight and minimalistic screen recording app devloped with Electron-forge.",
     image: '/images/iCapture.png',
-    tags: ['Electron', 'HTML', 'JavaScript', 'CSS'],
+    tags: ['CSS', 'HTML', 'JavaScript', 'Electron'],
     source: 'https://github.com/DracoCoder/icapture',
     visit: 'https://github.com/DracoCoder/icapture',
     id: 1,
