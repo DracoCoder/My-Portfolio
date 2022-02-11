@@ -39,7 +39,7 @@ export const projects = [
 
 export const TimeLineData = [
   { year: 2019, text: 'Started My Journey As A Student At IIIT, Nagpur ', },
-  { year: 2021, text: 'Worked as an Tranee At Smartknower', },
+  { year: 2021, text: 'Worked as a Trainee At Smartknower', },
   // { year: 2019, text: 'Founded JavaScript Mastery', },
   // { year: 2020, text: 'Shared my projects with the world', },
   // { year: 2021, text: 'Started my own platform', },
