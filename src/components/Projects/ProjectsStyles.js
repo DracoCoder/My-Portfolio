@@ -47,7 +47,8 @@ export const TitleContent = styled.div`
 export const HeaderThree = styled.h3`
   font-weight: 500;
   letter-spacing: 2px;
-  color: #9cc9e3;
+  // color: #7FFFD4;
+  // color: #9cc9e3;
   padding: .5rem 0;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
 `;
@@ -94,7 +95,8 @@ export const UtilityList = styled.ul`
 `;
 
 export const ExternalLinks = styled.a`
-color:#ffffff;
+// color:#ffffff;
+color: #8A2BE2;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
 border-radius: 5px;
@@ -111,9 +113,14 @@ justify-content: space-around;
 padding: 3rem;
 `
 export const Tag = styled.li`
-color: #d8bfbf;
+// color: #8A2BE2;
+color: #7FFFD4;
 font-size: 1.6rem;
+padding:1rem;
+border-radius: 5px;
+transition: 0.5s;
 &:hover{
-  text-decoration:underline;
+  background: #ffffff;
+  color:#000000;
 }
 `

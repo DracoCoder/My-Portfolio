@@ -5,7 +5,7 @@ const BackgroundAnimation = () => (
     <svg
       xmlns='http://www.w3.org/2000/svg'
       className="BgAnimation__svg"
-      viewBox="0 0 602 602"
+      viewBox="0 0 700 800"
       fill="none">
       {/* <rect fill='#330033' width='800' height='800' /> */}
       <g fill='none' stroke='#404' stroke-width='1.5'>

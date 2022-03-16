@@ -1,6 +1,7 @@
 import styled from "styled-components"
 
 export const Boxes = styled.div`
+  align:center;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -72,6 +73,7 @@ export const BoxText = styled.p`
   line-height: 24px;
   letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 30px;
 
   @media ${props => props.theme.breakpoints.md}{
     font-size: 16px;

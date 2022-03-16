@@ -17,7 +17,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Back-end</ListTitle>
           <ListParagraph>Experienced with <br />
-            C/C++, Python, Node.js and Databases
+            C/C++, Javascript, Python, R
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -26,20 +26,21 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Front-end</ListTitle>
           <ListParagraph>Experienced with <br />
-            React.js, Next.js and Electron.js
+            React.js, Next.js, Electron.js, HTML5, CSS
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <DiFirebase size='3rem' />
         <ListContainer>
-          <ListTitle>Tools</ListTitle>
+          <ListTitle>Tools and Databases</ListTitle>
           <ListParagraph>Experienced with <br />
-            Cisco Packet Tracer and XAMPP
+            Android Studio, Git, MongoDB, MySQL, VS Code, XAMPP
           </ListParagraph>
         </ListContainer>
       </ListItem>
     </List>
+    <SectionDivider></SectionDivider>
   </Section>
 );
 
