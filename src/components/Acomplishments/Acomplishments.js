@@ -7,7 +7,7 @@ const data = [
   { number: 9, symbol: '', text: 'Open Source Projects' },
   { number: 3, symbol: '⭐', text: 'In Leetcode', },
   { number: 2, symbol: '', text: 'Research Papers', },
-  // { number: 5000, symbol: '', text: 'Github Stars', }
+  { number: 3, symbol: '', text: 'Machine Learning Models', }
 ];
 
 const Acomplishments = () => (
