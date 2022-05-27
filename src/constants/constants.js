@@ -2,7 +2,7 @@ export const ProjectsData = [
   {
     title: 'Dynamic Weather WebApp',
     description: "A React-Based weather app with some extra goodies like dynamic theme elements ",
-    image: '/images/Weather.png',
+    image: '/images/weather.png',
     tags: ['CSS', 'HTML', 'React', 'Node', 'OpenWeatherAPI'],
     source: 'https://github.com/DracoCoder/React-Weather-App',
     visit: 'https://dynamic-weather.vercel.app',
