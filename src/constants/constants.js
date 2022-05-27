@@ -1,4 +1,4 @@
-export const projects = [
+export const ProjectsData = [
   {
     title: 'Dynamic Weather WebApp',
     description: "A React-Based weather app with some extra goodies like dynamic theme elements ",
@@ -49,7 +49,4 @@ export const projects = [
 export const TimeLineData = [
   { year: 2019, text: 'Started My Journey As An Undergrad At IIIT, Nagpur ', },
   { year: 2022, text: 'Joined HDFC Life as an AI/Frontend Intern', },
-  // { year: 2019, text: 'Founded JavaScript Mastery', },
-  // { year: 2020, text: 'Shared my projects with the world', },
-  // { year: 2021, text: 'Started my own platform', },
 ];

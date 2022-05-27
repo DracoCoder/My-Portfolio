@@ -44,6 +44,7 @@ const Timeline = () => {
 
   return (
     <Section id='about'>
+
       <SectionTitle>
         About Me
       </SectionTitle>

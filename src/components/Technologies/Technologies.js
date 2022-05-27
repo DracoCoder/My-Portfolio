@@ -40,7 +40,7 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
     </List>
-    <SectionDivider></SectionDivider>
+    <SectionDivider />
   </Section>
 );
 
