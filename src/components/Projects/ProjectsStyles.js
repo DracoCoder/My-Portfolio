@@ -2,17 +2,20 @@ import styled from 'styled-components';
 
 export const Img = styled.img`
 
-  width:40%;
-  height:40%;
+  width:50%;
+  // height:40%;
   object-fit: cover;
   overflow: hidden;
   
   border-radius: 15px;
-  padding: 3rem 0rem;
+  padding: 0rem 0rem;
 
   margin-left: auto;
   margin-right: auto;
   display: block;
+`
+export const ImgContainer = styled.div`
+  padding: 5 0rem;
 `
 
 export const GridContainer = styled.section`

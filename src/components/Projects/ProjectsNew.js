@@ -9,12 +9,15 @@ import 'slick-carousel/slick/slick-theme.css'
 import { ProjectsData } from '../../constants/constants';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
+import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img, ImgContainer } from './ProjectsStyles';
 
 const sliderSettings = {
-  slidesToShow: 2,
+  slidesToShow: 1,
   slidesToScroll: 1,
   infinite: true,
+  dots: true,
+  centerMode: true,
+  variableWidth: true,
   responsive: [
     {
       breakpoint: 1024,
@@ -46,7 +49,9 @@ const ProjectsNew = () => {
 
               <GridContainer>
                 <BlogCard key={i}>
-                  <Img src={p.image} />
+                  <ImgContainer>
+                    <Img src={p.image} />
+                  </ImgContainer>
                   <TitleContent>
                     <HeaderThree title>{p.title}</HeaderThree>
                     <Hr />

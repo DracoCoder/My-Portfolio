@@ -29,7 +29,7 @@ export const ProjectsData = [
   {
     title: 'Group Chat Sentiment Analysis',
     description: "Currently Working On A Website which lets you view NSE Stats and Fetches trending stock related News using RapidAPI.",
-    image: '/images/Sentiment.png',
+    image: '/images/Sentiment.jpg',
     tags: ['NLP', 'VADER', 'TextBlob', 'Tensorflow'],
     // source: 'https://google.com',
     // visit: 'https://google.com',
