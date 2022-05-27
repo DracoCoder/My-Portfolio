@@ -103,7 +103,7 @@ export const ExternalLinks = styled.a`
 // color:#ffffff;
 color: #8A2BE2;
 font-size: 1.6rem;
-padding:1rem 1.5rem;
+padding:1.5rem 1rem;
 border-radius: 5px;
 transition: 0.5s;
 &:hover{
@@ -115,7 +115,7 @@ transition: 0.5s;
 export const TagList = styled.ul`
 display: flex;
 justify-content: space-around;
-padding: 2rem;
+padding:3rem 1.5rem 0rem 1.5rem;
 `
 export const Tag = styled.li`
 // color: #8A2BE2;
