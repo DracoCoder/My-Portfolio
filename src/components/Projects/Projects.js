@@ -4,6 +4,7 @@ import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag,
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { ProjectsData } from '../../constants/constants';
 
+
 const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
