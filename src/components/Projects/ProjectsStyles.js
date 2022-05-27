@@ -2,12 +2,20 @@ import styled from 'styled-components';
 
 export const Img = styled.img`
 
-  width:40%;
-  height:40%;
+  width:50%;
+  // height:40%;
   object-fit: cover;
   overflow: hidden;
-  margin-top: 2rem;
+  
   border-radius: 15px;
+  padding: 0rem 0rem;
+
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+`
+export const ImgContainer = styled.div`
+  padding: 5rem 0rem;
 `
 
 export const GridContainer = styled.section`
@@ -88,7 +96,7 @@ export const CardInfo = styled.p`
 
 export const UtilityList = styled.ul`
   list-style-type: none;
-  padding: 0;
+  padding: 2rem;
   display: flex;
   justify-content: space-around;
   margin: 2rem 0;
@@ -98,7 +106,7 @@ export const ExternalLinks = styled.a`
 // color:#ffffff;
 color: #8A2BE2;
 font-size: 1.6rem;
-padding:1rem 1.5rem;
+padding:1.5rem 1rem;
 border-radius: 5px;
 transition: 0.5s;
 &:hover{
@@ -110,7 +118,7 @@ transition: 0.5s;
 export const TagList = styled.ul`
 display: flex;
 justify-content: space-around;
-padding: 3rem;
+padding:3rem 1.5rem 0rem 1.5rem;
 `
 export const Tag = styled.li`
 // color: #8A2BE2;

@@ -31,7 +31,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang='en-GB'>
         <Head>
-          <title>Gaurav's Portfolio</title>
+          {/* <title>Gaurav's Portfolio</title> */}
         </Head>
         <body>
           <Main />

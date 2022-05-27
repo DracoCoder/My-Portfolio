@@ -1,8 +1,8 @@
-export const projects = [
+export const ProjectsData = [
   {
     title: 'Dynamic Weather WebApp',
     description: "A React-Based weather app with some extra goodies like dynamic theme elements ",
-    image: '/images/Weather.png',
+    image: '/images/weather.png',
     tags: ['CSS', 'HTML', 'React', 'Node', 'OpenWeatherAPI'],
     source: 'https://github.com/DracoCoder/React-Weather-App',
     visit: 'https://dynamic-weather.vercel.app',
@@ -21,7 +21,7 @@ export const projects = [
     title: 'Drone Recognition (Deep Learning)',
     description: "Working On a Deep Learning Model Which is able to accurately distinguish between Drones and Other Flying Objects.",
     image: '/images/Drone Recon.png',
-    tags: ['Pyhton', 'YOLO V5', 'Tensorflow', 'Deep Learning'],
+    tags: ['Pyhton', 'YOLO V5', 'Tensorflow'],
     // source: 'https://google.com',
     // visit: 'https://google.com',
     id: 2,
@@ -29,8 +29,8 @@ export const projects = [
   {
     title: 'Group Chat Sentiment Analysis',
     description: "Currently Working On A Website which lets you view NSE Stats and Fetches trending stock related News using RapidAPI.",
-    image: '/images/Sentiment.png',
-    tags: ['NLP', 'VADER', 'TextBlob', 'Tensorflow', ' Deep Learning'],
+    image: '/images/Sentiment.jpg',
+    tags: ['NLP', 'VADER', 'TextBlob', 'Tensorflow'],
     // source: 'https://google.com',
     // visit: 'https://google.com',
     id: 3,
@@ -49,7 +49,4 @@ export const projects = [
 export const TimeLineData = [
   { year: 2019, text: 'Started My Journey As An Undergrad At IIIT, Nagpur ', },
   { year: 2022, text: 'Joined HDFC Life as an AI/Frontend Intern', },
-  // { year: 2019, text: 'Founded JavaScript Mastery', },
-  // { year: 2020, text: 'Shared my projects with the world', },
-  // { year: 2021, text: 'Started my own platform', },
 ];
