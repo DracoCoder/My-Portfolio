@@ -15,7 +15,7 @@ export const Img = styled.img`
   display: block;
 `
 export const ImgContainer = styled.div`
-  padding: 5 0rem;
+  padding: 5rem 0rem;
 `
 
 export const GridContainer = styled.section`
