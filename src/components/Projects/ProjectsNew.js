@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import Slider from 'react-slick'
 
-import { FaChevronLeft, FaChevronRight } from 'react-icons'
 
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
@@ -41,7 +40,7 @@ const ProjectsNew = () => {
       <Section nopadding id="projects">
         <SectionDivider />
         <SectionTitle main>Projects</SectionTitle>
-        {/* <Button variant="outlined">Outlined</Button> */}
+
         <Slider ref={setSliderRef}{...sliderSettings}>
           {ProjectsData.map((p, i) => {
             return (
