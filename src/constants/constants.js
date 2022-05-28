@@ -1,9 +1,9 @@
 export const ProjectsData = [
   {
-    title: 'Dynamic Weather WebApp',
+    title: 'React Weather App',
     description: "A React-Based weather app with some extra goodies like dynamic theme elements ",
     image: '/images/weather.png',
-    tags: ['CSS', 'HTML', 'React', 'Node', 'OpenWeatherAPI'],
+    tags: ['CSS', 'React.js', 'Node.js', 'OpenWeatherAPI'],
     source: 'https://github.com/DracoCoder/React-Weather-App',
     visit: 'https://dynamic-weather.vercel.app',
     id: 0,
@@ -12,7 +12,7 @@ export const ProjectsData = [
     title: 'iCapture',
     description: "A lightweight and minimalistic screen recording app devloped with Electron-forge.",
     image: '/images/iCapture.png',
-    tags: ['CSS', 'HTML', 'JavaScript', 'Electron'],
+    tags: ['CSS', 'JavaScript', 'Electron.js'],
     source: 'https://github.com/DracoCoder/icapture',
     visit: 'https://github.com/DracoCoder/icapture',
     id: 1,
