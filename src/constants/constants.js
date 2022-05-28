@@ -38,7 +38,7 @@ export const ProjectsData = [
   {
     title: 'NSE Stocks And News',
     description: "Currently Working On A Website which lets you view NSE Stats and Fetches trending stock related News using RapidAPI.",
-    image: '/images/Work In Progress.jpeg',
+    image: '/images/Default.png',
     tags: ['React', 'Node', 'Redux-Toolkit', 'RapidAPI'],
     // source: 'https://google.com',
     // visit: 'https://google.com',
