@@ -10,7 +10,7 @@ import { ProjectsData } from '../../constants/constants';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img, ImgContainer } from './ProjectsStyles';
+import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img, ImgContainer, Gradient } from './ProjectsStyles';
 
 const sliderSettings = {
   slidesToShow: 1,
@@ -62,27 +62,38 @@ const ProjectsNew = () => {
           {ProjectsData.map((p, i) => (
 
             <GridContainer>
-              <BlogCard key={i}>
-                <ImgContainer>
-                  <Img src={p.image} />
-                </ImgContainer>
-                <TitleContent>
-                  <HeaderThree title>{p.title}</HeaderThree>
-                  <Hr />
-                </TitleContent>
-                <CardInfo className="card-info">{p.description}</CardInfo>
-                <div>
-                  <TagList>
-                    {p.tags.map((t, i) => (
-                      <Tag key={i}>{t}</Tag>
-                    ))}
-                  </TagList>
-                </div>
-                <UtilityList>
-                  <ExternalLinks target="_blank" rel="noopener noreferrer" href={p.visit}>Try Now!</ExternalLinks>
-                  <ExternalLinks target="_blank" rel="noopener noreferrer" href={p.source}>Source Code</ExternalLinks>
-                </UtilityList>
-              </BlogCard>
+              <style jsx>{`
+                .gradient{
+                background: linear-gradient(to right, #05B1C2, #5BAFFC);
+                border-radius: 15px;
+                box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+                text-align: center;
+                width: 400px;
+                `}
+              </style>
+              <div className='gradient'>
+                <BlogCard key={i}>
+                  <ImgContainer>
+                    <Img src={p.image} />
+                  </ImgContainer>
+                  <TitleContent>
+                    <HeaderThree title>{p.title}</HeaderThree>
+                    <Hr />
+                  </TitleContent>
+                  <CardInfo className="card-info">{p.description}</CardInfo>
+                  <div>
+                    <TagList>
+                      {p.tags.map((t, i) => (
+                        <Tag key={i}>{t}</Tag>
+                      ))}
+                    </TagList>
+                  </div>
+                  <UtilityList>
+                    <ExternalLinks target="_blank" rel="noopener noreferrer" href={p.visit}>Try Now!</ExternalLinks>
+                    <ExternalLinks target="_blank" rel="noopener noreferrer" href={p.source}>Source Code</ExternalLinks>
+                  </UtilityList>
+                </BlogCard>
+              </div>
             </GridContainer>
           ))}
         </Slider>
