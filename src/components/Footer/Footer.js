@@ -12,14 +12,14 @@ const Footer = () => {
 
         <LinkColumn>
           <LinkTitle>Phone</LinkTitle>
-          <LinkItem href='tel:+919834751723'>
+          <LinkItem target="_blank" rel="noopener noreferrer" href='tel:+919834751723'>
             +919834751723
           </LinkItem>
         </LinkColumn>
 
         <LinkColumn>
           <LinkTitle>E-mail</LinkTitle>
-          <LinkItem href='mail:gauravbhandarkar94@gmail.com'>
+          <LinkItem target="_blank" rel="noopener noreferrer" href='mailto:gauravbhandarkar94@gmail.com'>
             gauravbhandarkar94@gmail.com
           </LinkItem>
         </LinkColumn>
@@ -32,16 +32,16 @@ const Footer = () => {
         </CompanyContainer>
       </SocialIconsContainer>
       <SocialContainer>
-        <SocialIcons href='https://github.com/DracoCoder'>
+        <SocialIcons target="_blank" rel="noopener noreferrer" href='https://github.com/DracoCoder'>
           <AiFillGithub size='3rem' />
         </SocialIcons>
-        <SocialIcons href='https://www.linkedin.com/in/gaurav-bhandarkar-658189208/'>
+        <SocialIcons target="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/in/gaurav-bhandarkar-658189208/'>
           <AiFillLinkedin size='3rem' />
         </SocialIcons>
-        <SocialIcons href='https://leetcode.com/GauravCodes/'>
+        <SocialIcons target="_blank" rel="noopener noreferrer" href='https://leetcode.com/GauravCodes/'>
           <SiLeetcode size='3rem' />
         </SocialIcons>
-        <SocialIcons href='https://www.instagram.com/gauravb_07/'>
+        <SocialIcons target="_blank" rel="noopener noreferrer" href='https://www.instagram.com/gauravb_07/'>
           <AiFillInstagram size='3rem' />
         </SocialIcons>
       </SocialContainer>

@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Section, SectionSubTitle, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection } from './HeroStyles';
+import { LeftSection, LinkItem } from './HeroStyles';
 
 const Hero = () => (
   <Section row nopadding>
@@ -22,9 +22,11 @@ const Hero = () => (
         • Innovative mind and Self Motivation <br />
         • Persistance in finding new paths and solutions <br />
       </SectionText>
-      <Button onClick={() => window.location = '/docs/Resume.pdf'}>
-        Learn More
-      </Button>
+      <LinkItem target="_blank" rel="noopener noreferrer" href='/docs/Resume.pdf'>
+        <Button >
+          My Resume
+        </Button>
+      </LinkItem>
     </LeftSection>
 
   </Section>
