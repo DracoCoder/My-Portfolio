@@ -3,9 +3,10 @@ import styled from 'styled-components';
 export const Img = styled.img`
 
   width:50%;
-  // height:40%;
+  
   object-fit: cover;
   overflow: hidden;
+  // box-shadow: 5px 5px 5px 5px #555555, 3px 3px #111111;
   
   border-radius: 15px;
   padding: 0rem 0rem;
@@ -15,7 +16,7 @@ export const Img = styled.img`
   display: block;
 `
 export const ImgContainer = styled.div`
-  padding: 5rem 0rem;
+  padding: 5rem 0rem;  
 `
 
 export const GridContainer = styled.section`
@@ -43,6 +44,7 @@ export const BlogCard = styled.div`
     width: 90%;
   }
 `;
+
 export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
@@ -50,7 +52,6 @@ export const TitleContent = styled.div`
   padding: 3rem;
 
 `;
-
 
 export const HeaderThree = styled.h3`
   font-weight: 500;
@@ -83,7 +84,7 @@ export const Intro = styled.div`
 export const CardInfo = styled.p`
   width: 100%;
   padding: 0 50px;
-  color: #e4e6e7;
+  color: #f4f6f7;
   font-style: 2rem;
   line-height: 24px;
   text-align: center;
@@ -92,7 +93,6 @@ export const CardInfo = styled.p`
   
 }
 `;
-
 
 export const UtilityList = styled.ul`
   list-style-type: none;
@@ -109,22 +109,25 @@ font-size: 1.6rem;
 padding:1.5rem 1rem;
 border-radius: 5px;
 transition: 0.5s;
+background: #FFFFFF;
+
+color:#000000;
 &:hover{
-  background: #ffffff;
-  color:#000000;
+  background: #DDDDDD;
 }
 `;
 
 export const TagList = styled.ul`
 display: flex;
 justify-content: space-around;
-padding:3rem 1.5rem 0rem 1.5rem;
+padding:3rem 2rem 0rem 2rem;
 `
+
 export const Tag = styled.li`
-// color: #8A2BE2;
-color: #7FFFD4;
-font-size: 1.6rem;
-padding:1rem;
+color: #FFFF00;
+font-size: 1.7rem;
+font-weight: 500;
+padding: 0.5rem 1rem;
 border-radius: 5px;
 transition: 0.5s;
 &:hover{
