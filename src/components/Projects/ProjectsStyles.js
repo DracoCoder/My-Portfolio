@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Img = styled.img`
 
-  width:50%;
+  width:40%;
   
   object-fit: cover;
   overflow: hidden;
@@ -16,7 +16,7 @@ export const Img = styled.img`
   display: block;
 `
 export const ImgContainer = styled.div`
-  padding: 5rem 0rem;  
+  padding: 2rem 0rem;  
 `
 
 export const GridContainer = styled.section`
@@ -40,6 +40,7 @@ export const BlogCard = styled.div`
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
+  height: 600px;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 90%;
   }
@@ -67,7 +68,7 @@ export const Hr = styled.hr`
   height: 3px;
   margin: 15px auto;
   border: 0;
-  background: #d0bb57;
+  background: #FFFF00;
 `;
 
 export const Intro = styled.div`

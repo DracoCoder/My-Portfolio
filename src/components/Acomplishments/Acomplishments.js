@@ -1,31 +1,105 @@
-import React from 'react';
+import { useState } from 'react'
+import Slider from 'react-slick'
+import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
 
+
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
+
+import { CertificationData } from '../../constants/constants';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
+import Button from '../../styles/GlobalComponents/Button';
 
-const data = [
-  { number: 9, symbol: '', text: 'Open Source Projects' },
-  { number: 3, symbol: '⭐', text: 'In Leetcode', },
-  { number: 2, symbol: '', text: 'Research Papers', },
-  { number: 3, symbol: '', text: 'Machine Learning Models', }
-];
+import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Img, ImgContainer, TitleContent, UtilityList } from './AcomplishmentsStyles';
 
-const Acomplishments = () => (
-  // <Section>
-  //   <SectionTitle>
-  //     Accomplishments
-  //   </SectionTitle>
-  //   <Boxes>
-  //     {data.map((card, index) =>
-  //       <Box key={index}>
-  //         <BoxNum>{card.number}{card.symbol}</BoxNum>
-  //         <BoxText></BoxText>
-  //         <BoxText>{card.text}</BoxText>
-  //       </Box>
-  //     )}
-  //   </Boxes>
-  // </Section>
-  <></>
-);
+
+const sliderSettings = {
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  infinite: true,
+
+  centerMode: true,
+  variableWidth: true,
+
+
+
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+      }
+    }
+  ]
+}
+
+const Acomplishments = () => {
+
+  const [sliderRef, setSliderRef] = useState(null)
+
+  return (
+    <div className='content'>
+      <Section nopadding id="certificates">
+        <SectionDivider />
+
+        <SectionTitle main>Certifications</SectionTitle>
+
+        {/* <div className='navButtons'>
+          <Button onCLick={sliderRef?.slickPrev}>
+            <FaChevronLeft />
+          </Button>
+          <Button onCLick={sliderRef?.slickNext}>
+            <FaChevronRight />
+          </Button>
+        </div> */}
+
+        <Slider ref={setSliderRef} {...sliderSettings}>
+          {CertificationData.map((item, index) => (
+
+            <GridContainer>
+              <style jsx>{`
+                .gradient{
+                background: linear-gradient(to right, #05B1C2, #5BAFFC);
+                border-radius: 15px;
+                box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+                text-align: center;
+                width: 400px;}
+                `}
+              </style>
+              <div className='gradient'>
+                <BlogCard key={index}>
+                  {/* <ImgContainer>
+                    <Img src={item.certificate} />
+                  </ImgContainer> */}
+                  <div className='flexbox'>
+                    <TitleContent>
+                      <HeaderThree title>{item.title}</HeaderThree>
+                    </TitleContent>
+                    <div>
+                      <HeaderThree>{item.type}</HeaderThree>
+                      <Hr />
+                    </div>
+
+                    <UtilityList>
+                      <ExternalLinks target="_blank" rel="noopener noreferrer" href={item.certificate}>Open</ExternalLinks>
+                      <ExternalLinks target="_blank" rel="noopener noreferrer" href={item.link}>Verify</ExternalLinks>
+                    </UtilityList>
+                  </div>
+                </BlogCard>
+              </div>
+            </GridContainer>
+          ))}
+        </Slider>
+        <SectionDivider />
+      </Section>
+    </div >
+  )
+};
 
 export default Acomplishments;
