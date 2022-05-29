@@ -1,10 +1,10 @@
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiOutlineMail } from 'react-icons/ai';
 import { SiLeetcode } from "react-icons/si";
-import { FiPhoneCall } from "react-icons/Fi";
+import { FiPhoneCall } from "react-icons/fi";
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
-import { display } from '@mui/system';
+// import { display } from '@mui/system';
 
 const Footer = () => {
   return (
