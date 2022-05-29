@@ -39,8 +39,8 @@ export const BlogCard = styled.div`
   border-radius: 15px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
-  width: 400px;
-  // height: 500px;
+  width: 300px;
+  min-height: 300px;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 90%;
   }
@@ -60,7 +60,7 @@ export const HeaderThree = styled.h3`
   // color: #7FFFD4;
   // color: #9cc9e3;
   padding: .5rem 0;
-  font-size: ${(props) => props.title ? '4rem' : '3rem'};
+  font-size: ${(props) => props.title ? '3rem' : '2rem'};
   color: ${(props) => props.title ? '' : '#FFFF00'};
 `;
 

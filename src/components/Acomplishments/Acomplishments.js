@@ -46,8 +46,6 @@ const Acomplishments = () => {
   return (
     <div className='content'>
       <Section nopadding id="certificates">
-        <SectionDivider />
-
         <SectionTitle main>Certifications</SectionTitle>
 
         {/* <div className='navButtons'>
@@ -65,11 +63,11 @@ const Acomplishments = () => {
             <GridContainer>
               <style jsx>{`
                 .gradient{
-                background: linear-gradient(to right, #05B1C2, #5BAFFC);
+                background: linear-gradient(to bottom right, #ff0066 0%, #ff00ff 100%);
                 border-radius: 15px;
                 box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
                 text-align: center;
-                width: 400px;}
+                }
                 `}
               </style>
               <div className='gradient'>
@@ -87,7 +85,7 @@ const Acomplishments = () => {
                     </div>
 
                     <UtilityList>
-                      <ExternalLinks target="_blank" rel="noopener noreferrer" href={item.certificate}>Open</ExternalLinks>
+                      <ExternalLinks target="_blank" rel="noopener noreferrer" href={item.certificate}>Certificate</ExternalLinks>
                       <ExternalLinks target="_blank" rel="noopener noreferrer" href={item.link}>Verify</ExternalLinks>
                     </UtilityList>
                   </div>

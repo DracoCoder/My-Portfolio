@@ -1,13 +1,12 @@
 import React from 'react';
 
-import { Section, SectionSubTitle, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionDivider, SectionSubTitle, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection, LinkItem } from './HeroStyles';
 
 const Hero = () => (
   <Section row nopadding>
     <LeftSection>
-      {/* Style can be adjusted in index.js */}
       <SectionTitle main center>
         Hello, I'm Gaurav <br />
         Welcome To <br />
@@ -27,8 +26,8 @@ const Hero = () => (
           My Resume
         </Button>
       </LinkItem>
+      <SectionDivider />
     </LeftSection>
-
   </Section>
 );
 
