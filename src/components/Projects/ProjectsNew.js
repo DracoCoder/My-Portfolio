@@ -45,7 +45,6 @@ const ProjectsNew = () => {
   return (
     <div className='content'>
       <Section nopadding id="projects">
-        <SectionDivider />
 
         <SectionTitle main>Projects</SectionTitle>
 
@@ -67,9 +66,12 @@ const ProjectsNew = () => {
                 background: linear-gradient(to right, #05B1C2, #5BAFFC);
                 border-radius: 15px;
                 box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
-                text-align: center;
-                width: 400px;
+                text-align: center;}
+                .gradient:hover{
+                transform: scale(1.1);
+                transition: 0.7s;}
                 `}
+
               </style>
               <div className='gradient'>
                 <BlogCard key={i}>
@@ -89,8 +91,8 @@ const ProjectsNew = () => {
                     </TagList>
                   </div>
                   <UtilityList>
-                    <ExternalLinks target="_blank" rel="noopener noreferrer" href={p.visit}>Try Now!</ExternalLinks>
-                    <ExternalLinks target="_blank" rel="noopener noreferrer" href={p.source}>Source Code</ExternalLinks>
+                    {p.visit != undefined ? (< ExternalLinks target="_blank" rel="noopener noreferrer" href={p.visit}>Try Now!</ExternalLinks>) : (< ExternalLinks target="_blank" rel="noopener noreferrer">Work In Progress!</ExternalLinks>)}
+                    {p.source != undefined ? (< ExternalLinks target="_blank" rel="noopener noreferrer" href={p.source}>Source Code</ExternalLinks>) : ('')}
                   </UtilityList>
                 </BlogCard>
               </div>

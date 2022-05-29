@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const Img = styled.img`
 
-  width:40%;
-  
+  width:35%;
+ 
   object-fit: cover;
   overflow: hidden;
   // box-shadow: 5px 5px 5px 5px #555555, 3px 3px #111111;
@@ -40,7 +40,7 @@ export const BlogCard = styled.div`
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
-  height: 600px;
+  height: 550px;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 90%;
   }
