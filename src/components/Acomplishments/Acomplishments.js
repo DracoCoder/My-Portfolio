@@ -68,7 +68,7 @@ const Acomplishments = () => {
                 box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
                 text-align: center;}
                 .gradient:hover{
-                  transform: scale(1.1);
+                transform: scale(1.1);
                 transition: 0.7s;}
                 }
                 `}
