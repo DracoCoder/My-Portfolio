@@ -4,8 +4,8 @@ import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () => (
-  <Section id="technology">
-    <SectionTitle>Technology</SectionTitle>
+  <Section id="skills">
+    <SectionTitle>Skills</SectionTitle>
     <SectionText>
       I would love an oppurtunity to work with various technologies in software and web devlopement world. I have previously worked on following tools and technologies.
     </SectionText>
