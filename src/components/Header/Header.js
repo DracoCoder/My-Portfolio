@@ -11,9 +11,7 @@ const Header = () => (
   <Container>
 
     <Div1>
-
       <DiCssdeck size="3rem" /> <Span>Gaurav's Portfolio</Span>
-
     </Div1>
 
     <Div2>
@@ -35,6 +33,11 @@ const Header = () => (
       <li>
         <Link href='#about'>
           <NavLink>About Me</NavLink>
+        </Link>
+      </li>
+      <li>
+        <Link href='#footer'>
+          <NavLink>Contact Me</NavLink>
         </Link>
       </li>
     </Div2>
