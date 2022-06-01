@@ -18,23 +18,28 @@ export const Container = styled.div`
   }
 `;
 export const Span = styled.span`
-  font-size='2rem';
-
+  font-size: 2.3rem;
+  margin-left: 1rem;
 `;
 
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;
   display: flex;
   flex-direction: row;
-  align-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  // background-color: white;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 1 / 2 / 2 / 3;
   }
 `;
 export const Div2 = styled.div`
-  grid-area: 1 / 2 / 2 / 4;
+  grid-area: 1 / 2 / 2 / 5;
   display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: space-around;
+  // background-color: white;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
   }
@@ -52,9 +57,9 @@ export const Div3 = styled.div`
 
 // Navigation Links
 export const NavLink = styled.a`
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 32px;
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255);
   transition: 0.4s ease;
   &:hover {
     color: #fff;

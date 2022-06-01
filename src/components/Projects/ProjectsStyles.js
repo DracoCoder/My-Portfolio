@@ -6,7 +6,7 @@ export const Img = styled.img`
  
   object-fit: cover;
   overflow: hidden;
-  // box-shadow: 5px 5px 5px 5px #555555, 3px 3px #111111;
+  box-shadow: 3px 3px 3px 3px #555555, 3px 3px #111111;
   
   border-radius: 15px;
   padding: 0rem 0rem;
@@ -133,6 +133,7 @@ border-radius: 5px;
 transition: 0.5s;
 &:hover{
   background: #ffffff;
+  cursor: pointer;
   color:#000000;
 }
 `

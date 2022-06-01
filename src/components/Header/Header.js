@@ -9,30 +9,35 @@ import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './Heade
 
 const Header = () => (
   <Container>
-    {/* Div1 is the icon and title */}
+
     <Div1>
-      <Link href="/">
-        <a style={{ display: 'flex', alignItems: 'center', color: 'white', marginBottom: '20px' }}>
-          <DiCssdeck size="3rem" /> <span>Gaurav Bhandarkar</span>
-          {/* Dicssdeck is the icon */}
-        </a>
-      </Link>
+      <DiCssdeck size="3rem" /> <Span>Gaurav's Portfolio</Span>
     </Div1>
-    {/* Div2 will scroll down to specific parts of the websites */}
+
     <Div2>
       <li>
-        <Link href='#projects'>
-          <NavLink>My Projects</NavLink>
+        <Link href='#skills'>
+          <NavLink>My Skills</NavLink>
         </Link>
       </li>
       <li>
-        <Link href='#technology'>
-          <NavLink>Technology</NavLink>
+        <Link href='#projects'>
+          <NavLink>Projects</NavLink>
+        </Link>
+      </li>
+      <li>
+        <Link href='#certificates'>
+          <NavLink>Certificates</NavLink>
         </Link>
       </li>
       <li>
         <Link href='#about'>
           <NavLink>About Me</NavLink>
+        </Link>
+      </li>
+      <li>
+        <Link href='#footer'>
+          <NavLink>Contact Me</NavLink>
         </Link>
       </li>
     </Div2>
