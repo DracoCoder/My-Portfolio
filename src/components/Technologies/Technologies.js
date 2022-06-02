@@ -6,12 +6,12 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 const Technologies = () => (
   <Section id="skills">
     <SectionTitle>Skills</SectionTitle>
-    <SectionText>
+    <SectionText skills>
       I would love an oppurtunity to work with various technologies in software and web devlopement world. I have previously worked on following tools and technologies.
     </SectionText>
     <List>
       <ListItem>
-        <DiPython size='3rem' />
+        <DiPython size='5rem' />
         <ListContainer>
           <ListTitle>Back-end</ListTitle>
           <ListParagraph>Experienced with <br />
@@ -20,7 +20,7 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiReact size='3rem' />
+        <DiReact size='5rem' />
         <ListContainer>
           <ListTitle>Front-end</ListTitle>
           <ListParagraph>Experienced with <br />
@@ -30,7 +30,7 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size='3rem' />
+        <DiFirebase size='5rem' />
         <ListContainer>
           <ListTitle>Tools</ListTitle>
           <ListParagraph>Experienced with <br />

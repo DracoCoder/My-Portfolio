@@ -29,9 +29,14 @@ export const SectionTitle = styled.h2`
   font-weight: 800;
   font-size: ${(props) => props.main ? '60px' : '50px'};
   line-height: ${(props) => props.main ? '72px' : '56px'};
+  font-size: ${(props) => props.intro ? '90px' : '50px'};
+  line-height: ${(props) => props.intro ? '102px' : '56px'};
   width: max-content;
   max-width: 100%;
-  background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+  // background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+  // -webkit-background-clip: text;
+  // -webkit-text-fill-color: transparent;
+  background: linear-gradient(45deg, #e21143, #ffb03a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;
@@ -61,7 +66,7 @@ export const SectionSubTitle = styled.p`
   line-height: 40px;
   font-weight: 500;
   padding-bottom: 3.6rem;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.9);
 
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 670px;
@@ -80,7 +85,7 @@ export const SectionSubTitle = styled.p`
 export const SectionText = styled.p`
   max-width: 800px;
   font-size: 24px;
-  line-height: 40px;
+  line-height: ${(props) => props.skills ? '45px' : '40px'};
   font-weight: 300;
   padding-bottom: 3.6rem;
   color: rgba(255, 255, 255, 0.5);

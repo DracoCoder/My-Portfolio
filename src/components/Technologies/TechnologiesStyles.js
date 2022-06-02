@@ -53,6 +53,7 @@ export const List = styled.ul`
 export const ListContainer = styled.div`
   display: flex;
   flex-direction: column;
+  margin: 15px 0px 30px 0px;
 
   @media ${props => props.theme.breakpoints.sm}{
     display: flex;
@@ -62,7 +63,7 @@ export const ListContainer = styled.div`
 
 export const ListTitle = styled.h4`
   font-weight: 700;
-  font-size: 28px;
+  font-size: 36px;
   line-height: 32px;
   letter-spacing: 0.02em;
   color: #FFFFFF;
@@ -115,8 +116,8 @@ export const ListItem = styled.li`
 
 export const ListIcon = styled.img`
   display: block;
-  width: 48px;
-  height: 48px;
+  width: 60px;
+  // height: 48px;
   margin-bottom: 10px;
   
   @media ${props => props.theme.breakpoints.md}{
