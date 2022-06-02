@@ -63,7 +63,7 @@ const Acomplishments = () => {
             <GridContainer>
               <style jsx>{`
                 .gradient{
-                background: linear-gradient(to bottom right, #ff0066 0%, #ff00ff 100%);
+                background: linear-gradient(135deg, #fa2266 0%, #ff00ff 100%);
                 border-radius: 15px;
                 box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
                 text-align: center;}

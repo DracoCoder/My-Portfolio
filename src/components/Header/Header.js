@@ -41,7 +41,7 @@ const Header = () => (
         </Link>
       </li>
     </Div2>
-    {/* Div3 ContainsSocial Icons Such As Github, LinkedIn */}
+
     <Div3>
       <SocialIcons href='https://github.com/DracoCoder'>
         <AiFillGithub size='3rem' />

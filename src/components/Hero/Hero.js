@@ -1,18 +1,16 @@
 import React from 'react';
 
-import { Section, SectionDivider, SectionSubTitle, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionTitle, SectionDivider } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection, LinkItem } from './HeroStyles';
+import { SectionSubTitle, LeftSection, LinkItem } from './HeroStyles';
 
 const Hero = () => (
   <Section row nopadding>
     <LeftSection>
-      <SectionTitle main center>
-        Hello, I'm Gaurav <br />
-        Welcome To <br />
-        My Portfolio
-      </SectionTitle>
-      <SectionSubTitle>
+      <SectionTitle intro main center>Hello!<br /> I am Gaurav</SectionTitle>
+      <SectionSubTitle>Welcome To My Portfolio</SectionSubTitle>
+
+      {/* <SectionSubTitle>
         I POSSESS
       </SectionSubTitle>
       <SectionText>
@@ -20,7 +18,8 @@ const Hero = () => (
         • Strong analytical and problem-solving skills <br />
         • Innovative mind and Self Motivation <br />
         • Persistance in finding new paths and solutions <br />
-      </SectionText>
+      </SectionText> */}
+      <br />
       <LinkItem target="_blank" rel="noopener noreferrer" href='/docs/Resume.pdf'>
         <Button >
           My Resume
