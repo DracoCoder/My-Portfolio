@@ -61,16 +61,16 @@ export const HeaderThree = styled.h3`
   // color: #9cc9e3;
   padding: .5rem 0;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
-  color: ${(props) => props.title ? '' : '#FFFF00'};
+  color: ${(props) => props.title ? '' : '#0A0D25'};
 `;
 
 export const Hr = styled.hr`
   width: 75px;
-  height: 5px;
-  margin: 15px auto;
+  height: 3px;
+  margin: 10px auto;
   border: 0;
   border-radius: 15px;
-  background: #FFFF00;
+  background: #0A0D25;
 `;
 
 export const Intro = styled.div`
@@ -113,8 +113,8 @@ padding:1.5rem 1rem;
 border-radius: 5px;
 transition: 0.5s;
 background: #FFFFFF;
-
 color:#000000;
+
 &:hover{
   background: #DDDDDD;
 }
