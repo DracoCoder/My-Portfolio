@@ -63,13 +63,15 @@ const ProjectsNew = () => {
             <GridContainer>
               <style jsx>{`
                 .gradient{
-                background: linear-gradient(to right, #05B1C2, #5BAFFC);
+                background: linear-gradient(to bottom right, #2EAAFA, #1F2F98);
                 border-radius: 15px;
                 box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
                 text-align: center;}
                 .gradient:hover{
-                transform: scale(1.1);
-                transition: 0.7s;}
+                // transform: scale(1.1);
+                // transition: 0.7s;
+                cursor: pointer;
+              }
                 `}
 
               </style>

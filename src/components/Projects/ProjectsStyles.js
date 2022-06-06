@@ -68,7 +68,7 @@ export const Hr = styled.hr`
   height: 3px;
   margin: 15px auto;
   border: 0;
-  background: #FFFF00;
+  background: #0A0D25;
 `;
 
 export const Intro = styled.div`
@@ -125,7 +125,7 @@ padding:3rem 2rem 0rem 2rem;
 `
 
 export const Tag = styled.li`
-color: #FFFF00;
+color: #0A0D25;
 font-size: 1.7rem;
 font-weight: 500;
 padding: 0.5rem 1rem;
@@ -134,6 +134,5 @@ transition: 0.5s;
 &:hover{
   background: #ffffff;
   cursor: pointer;
-  color:#000000;
 }
 `
