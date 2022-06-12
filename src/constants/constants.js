@@ -1,6 +1,6 @@
 export const ProjectsData = [
   {
-    title: 'React Weather App',
+    title: 'Weatherly',
     description: "A Simple Weather App with Beutiful UI Built Using ReactJS",
     image: '/images/weather.png',
     tags: ['CSS', 'React.js', 'Node.js', 'OpenWeatherAPI'],
@@ -9,7 +9,7 @@ export const ProjectsData = [
     id: 0,
   },
   {
-    title: 'iCapture',
+    title: 'CaptureMe',
     description: "A lightweight and minimalistic screen recording app devloped with Electron.",
     image: '/images/iCapture.png',
     tags: ['CSS', 'JavaScript', 'Electron.js'],
@@ -34,15 +34,6 @@ export const ProjectsData = [
     source: 'https://github.com/DracoCoder/NLP-Chat-Analysis',
     // visit: 'https://google.com',
     id: 3,
-  },
-  {
-    title: 'NSE Stocks & News',
-    description: "A Website which lets you view NSE Stats and Fetches trending stock related News using RapidAPI.",
-    image: '/images/Default.png',
-    tags: ['React', 'Node', 'Redux-Toolkit', 'RapidAPI'],
-    // source: 'https://google.com',
-    // visit: 'https://google.com',
-    id: 4,
   }
 ];
 
